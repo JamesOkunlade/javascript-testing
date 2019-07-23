@@ -2,15 +2,12 @@ let letters = [
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
     'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
 ];
-​
 let lettersInNumbers = {};
 let numbersInLetters = {};
-​
 for (let i = 0; i < letters.length; i++) {
     lettersInNumbers[letters[i]] = i;
     numbersInLetters[i] = letters[i];
 }
-​
 function encryptCharacter(char, shift) {
     let isUpCase = (char.match(/[A-Z]/)) ? true : false;
     if (!isUpCase) {
@@ -28,7 +25,6 @@ function encryptCharacter(char, shift) {
         return char;
     }
 }
-​
 function ceasar(string) {
     stringArray = string.split('');
     for (let i = 0; i < stringArray.length; i++) {
@@ -36,5 +32,4 @@ function ceasar(string) {
     }
     return stringArray.join('');
 }
-​
 module.exports = ceasar;
