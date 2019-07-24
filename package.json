@@ -1,0 +1,22 @@
+{
+  "name": "javascript-testing",
+  "version": "1.0.0",
+  "description": "A JavaScript testing project using Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesOkunlade/javascript-testing.git"
+  },
+  "author": "James Okunlade & Adnan Afsari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesOkunlade/javascript-testing/issues"
+  },
+  "homepage": "https://github.com/JamesOkunlade/javascript-testing#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
